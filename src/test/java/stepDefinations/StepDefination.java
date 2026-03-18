@@ -86,6 +86,8 @@ public class StepDefination extends Utils {
 	    // Write code here that turns the phrase above into concrete actions
 	  res = given().spec(reqspec).body(data.deletePlacePayload(place_id));
 	  
+	  System.out.println("End of Code");
+	  
 	}
 
 
